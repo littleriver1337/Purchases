@@ -15,8 +15,9 @@ public class Purchase {
     String creditCard;
     String cvv;
     String category;
+
     @ManyToOne
-    Customer customer;
+    Customer customer;//extends to Customer...pulls whole customer object and gives us our CUSTOMER ID
 
     public Purchase(){
 
