@@ -17,7 +17,7 @@ public class Purchase {
     String category;
 
     @ManyToOne
-    Customer customer;//extends to Customer...pulls whole customer object and gives us our CUSTOMER ID
+    Customer customer;//extends to Purchase...pulls whole customer object and gives us our CUSTOMER ID
 
     public Purchase(){
 
